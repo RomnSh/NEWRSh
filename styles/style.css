@@ -1,0 +1,40 @@
+.container {
+  background-color: #fcfbf7;
+  padding: 10px;
+}
+
+.account {
+  padding: 30px;
+  position: relative;
+  background-color: #fff;
+  margin-top: 20px;
+  }
+
+.badge {
+  color: #5918a3;
+  background-color: #EFEBFF;
+  margin-left: 20px;
+}
+
+.iban-number {
+  margin-left: 20px;
+}
+
+.dropend {
+  float: right;
+  background-color: #EFEBFF;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+  display: none;
+  }
+
+.account:hover .dropend {
+  display: flex;
+}
+
+.account:hover {
+  background-color: #F9F8FF;
+}
